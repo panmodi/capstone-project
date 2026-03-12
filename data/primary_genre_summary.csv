@@ -1,0 +1,467 @@
+Genre,Count
+Fiction,6231
+Fantasy,5501
+Romance,3344
+Young Adult,3211
+Other,2837
+Nonfiction,2657
+Historical-Historical Fiction,2266
+Mystery,1973
+Science Fiction,1447
+Classics,1172
+History,1051
+Poetry,973
+Horror,876
+Fantasy-Paranormal,800
+Childrens,699
+Sequential Art-Manga,679
+Philosophy,606
+Thriller,589
+Fantasy-Urban Fantasy,537
+Sequential Art-Comics,531
+Short Stories,511
+Sequential Art-Graphic Novels,457
+Christian Fiction,457
+Paranormal-Vampires,439
+Biography,426
+Novels,417
+Childrens-Picture Books,380
+Romance-Historical Romance,372
+Romance-Paranormal Romance,356
+Christian,319
+Womens Fiction-Chick Lit,319
+New Adult,313
+Science,304
+Religion,294
+Romance-M M Romance,282
+Humor,253
+Plays,242
+Self Help,219
+Psychology,215
+Childrens-Middle Grade,204
+Politics,191
+Business,190
+Autobiography-Memoir,187
+Spirituality,165
+Contemporary,157
+Art,150
+Religion-Islam,147
+Science Fiction-Dystopia,143
+Adult Fiction-Erotica,143
+Dark,141
+Travel,141
+Erotica-BDSM,139
+Music,137
+Religion-Theology,131
+Mystery-Crime,131
+Sports-Sports,123
+Realistic Fiction,116
+Horror-Zombies,113
+Media Tie In-Star Wars,113
+Romance-Romantic Suspense,112
+Crime-True Crime,109
+Adventure,107
+Cultural-France,96
+Asian Literature-Turkish Literature,94
+LGBT,93
+Animals-Horses,93
+Fantasy-Mythology,91
+Science Fiction-Steampunk,85
+Paranormal-Angels,76
+Holiday-Christmas,74
+Westerns,73
+Food and Drink-Cookbooks,68
+Economics,67
+Animals,67
+Cultural-Russia,64
+Cultural-Japan,62
+Feminism,61
+Science Fiction-Time Travel,61
+Language-Writing,60
+Urban,60
+European Literature-Romanian Literature,56
+Parenting,55
+Romance-Contemporary Romance,50
+Religion-Buddhism,49
+Amish,49
+Health,48
+Historical,48
+GLBT-Lesbian,46
+Media Tie In-Doctor Who,45
+Literature,45
+War-Military Fiction,45
+Asian Literature-Indonesian Literature,44
+Cultural-Africa,42
+Education,41
+Reference,40
+Novels-Light Novel,39
+Culture-Film,39
+European Literature-Polish Literature,39
+European Literature-German Literature,36
+Drama,35
+Writing-Essays,35
+Cultural-China,35
+European Literature-Spanish Literature,35
+Economics-Finance,34
+Art-Photography,34
+Cultural-India,34
+European Literature-Bulgarian Literature,34
+Erotica-Menage,32
+Cultural-African American,31
+Sociology,27
+Suspense,26
+World War II-Holocaust,25
+European Literature-Portuguese Literature,25
+Anthropology,24
+Sports-Baseball,24
+Leadership,24
+Roman,23
+Environment-Nature,22
+Shapeshifters-Werewolves,22
+Computer Science-Programming,21
+Cultural-Portugal,19
+Media Tie In-Star Trek,19
+European Literature-Dutch Literature,18
+Christianity-Catholic,18
+Polyamorous-Reverse Harem,18
+Business-Amazon,17
+Religion-Christianity,17
+Lds-Lds Fiction,17
+Literature-Marathi,17
+European Literature-Czech Literature,17
+Adult,17
+Occult,16
+Mythology-Mermaids,16
+Science-Mathematics,15
+War,15
+Plays-Theatre,15
+Science Fiction-Aliens,15
+Thriller-Mystery Thriller,15
+European Literature-Italian Literature,14
+Paranormal-Shapeshifters,14
+Fantasy-Fairy Tales,13
+Sequential Art-Bande Dessine,13
+Food and Drink-Food,13
+Marriage,13
+Football,13
+Relationships,13
+Science Fiction Fantasy,13
+Anthologies,13
+Science-Physics,12
+Sports-Fitness,12
+Fantasy-Supernatural,12
+Biography-Autobiography,12
+Food and Drink-Cooking,11
+GLBT-Queer,11
+European Literature-Finnish Literature,11
+Couture-Fashion,11
+Cultural-Canada,11
+European Literature-Hungarian Literature,11
+Inspirational,10
+Military History-Civil War,10
+Paranormal-Witches,10
+Audiobook,10
+Romance-Interracial Romance,10
+Science Fiction-Alternate History,10
+Book Club,10
+Fan Fiction,10
+Love,10
+Games-Chess,9
+European Literature-French Literature,9
+Sociology-Abuse,9
+Cultural-Italy,9
+Comics-Superheroes,9
+Fantasy-Dragons,9
+Epic,9
+Romance-Erotic Romance,9
+Esoterica-Astrology,9
+Adventure-Survival,9
+Apocalyptic-Post Apocalyptic,9
+Literature-Russian Literature,8
+Christian-Christian Living,8
+Self Help-Personal Development,8
+Paranormal-Ghosts,8
+Academic-School,8
+Law,8
+Media Tie In,8
+Young Adult-Teen,8
+Unfinished,8
+Anthologies-Collections,8
+Games-Role Playing Games,8
+Mystery-Noir,8
+Family,8
+Christianity-Lds,8
+Media Tie In-Buffy The Vampire Slayer,7
+Historical-Georgian,7
+Dungeons and Dragons-Forgotten Realms,7
+Architecture,7
+Religion-Judaism,7
+Cultural-Scotland,7
+Cultural-Pakistan,7
+Fantasy-Magic,7
+Cultural-Spain,7
+Gothic,6
+Religion-Faith,6
+Literature-Jewish,6
+Sports and Games-Games,6
+Health-Mental Health,6
+European Literature-Albanian Literature,6
+Prayer,6
+Medical,6
+Cultural-Australia,6
+Animals-Cats,6
+Science-Computer Science,6
+Gardening,6
+Parenting-Adoption,6
+Modern,5
+Paranormal-Fairies,5
+Romance-M F Romance,5
+War-World War II,5
+Business-Management,5
+Humanities-Language,5
+Design,5
+Mystery-Cozy Mystery,5
+Humor-Comedy,5
+Literature-20th Century,5
+Holiday-Halloween,5
+Space,5
+Witchcraft,5
+Animals-Dogs,5
+Cultural-Turkish,5
+Environment,5
+Combat-Martial Arts,5
+Romance-Christian Romance,5
+Magical Realism,5
+Sexuality,5
+Biography Memoir,5
+Literature-American,5
+Horror-Bizarro Fiction,5
+Novella,5
+Cultural-Ireland,5
+Academic-Read For School,5
+Adventure-Pirates,5
+Asian Literature-Japanese Literature,5
+Mystery-Detective,4
+True Story,4
+Cultural-Israel,4
+European Literature-Swedish Literature,4
+Childrens-Juvenile,4
+Childrens-Chapter Books,4
+European Literature-British Literature,4
+Writing-Books About Books,4
+Criticism-Literary Criticism,4
+Science Fiction-Cyberpunk,4
+Business-Entrepreneurship,4
+LGBT-Gay,4
+Sports-Cycling,4
+Fairy Tales-Fairy Tale Retellings,4
+Religion-Wicca,4
+Animals-Birds,4
+Race,4
+Literature-Banned Books,4
+Cultural-Brazil,4
+European Literature-Irish Literature,4
+Category Romance-Harlequin,4
+Health-Medicine,4
+European Literature-Danish,4
+Textbooks,3
+Biblical Fiction,3
+Own,3
+Alcohol-Beer,3
+American-Southern,3
+Diary,3
+Paranormal-Demons,3
+Christian-Christian Non Fiction,3
+Category Romance-Love Inspired,3
+Fantasy-Dark Fantasy,3
+War-World War I,3
+Travel-Travelogue,3
+Cultural-Romania,3
+Literature-19th Century,3
+Northern Africa-Egypt,3
+Cultural-Germany,3
+Young Adult-Coming Of Age,3
+Spirituality-New Age,3
+Adult Fiction,3
+Aviation,3
+Cultural,3
+Comics-Comic Book,3
+Disability,3
+Young Adult-High School,3
+Science-Technology,3
+Teaching,3
+Currency-Money,3
+Young Adult-Young Adult Romance,3
+Religion-Paganism,3
+Historical-Medieval,3
+Religion-Baha I,3
+Romance-Science Fiction Romance,3
+Warfare-Fighters,2
+Action,2
+Mythology-Greek Mythology,2
+Folklore-Monsters,2
+Asian Literature-Indian Literature,2
+Occult-Tarot,2
+Humanities-Linguistics,2
+Religion-Atheism,2
+Feminism-Womens Studies,2
+Gamebooks-Choose Your Own Adventure,2
+Christianity-New Testament,2
+Classics-Classic Literature,2
+Occult-Magick,2
+Writing-Journalism,2
+Games-Game Design,2
+Pseudoscience-Conspiracy Theories,2
+Young Adult-Young Adult Fantasy,2
+Military-Military History,2
+Religion-Esoterica,2
+Historical-Regency,2
+Academic,2
+Romantic,2
+Philosophy-Theory,2
+Computer Science-Computers,2
+Pseudoscience-Cryptozoology,2
+Horror-Ghost Stories,2
+Biology-Neuroscience,2
+Diary-Journal,2
+Speculative Fiction,2
+Culture-Pop Culture,2
+Realistic Fiction-Slice Of Life,2
+Harlequin-Harlequin Heartwarming,2
+Spy Thriller-Espionage,2
+Culture-Society,2
+Central Africa-Democratic Republic Of The ...,2
+History-World History,2
+Nature-Outdoors,2
+Psychology-Counselling,2
+Womens,2
+Occult-Mysticism,2
+Manga-Yaoi,2
+Sports-Mountaineering,2
+Games-Gaming,2
+Dungeons and Dragons-Dragonlance,2
+Artificial Intelligence,2
+European Literature-Scandinavian Literature,2
+Pseudoscience-Numerology,2
+Kids,2
+Language-Communication,2
+Nurses-Nursing,2
+Fairy Tales-Cinderella,2
+New York,2
+Literature-21st Century,2
+Fantasy-High Fantasy,2
+Central Africa-Angola,2
+Fairy Tales-Beauty and The Beast,2
+Pop Culture-Nerd,2
+Mental Health-Mental Illness,2
+Thriller-Psychological Thriller,2
+Literature-English Literature,1
+Art-Art Design,1
+Retellings,1
+Esoterica-Theosophy,1
+Folklore,1
+School Stories-Boarding School,1
+Cultural-Lebanon,1
+Female Authors,1
+Church-Church History,1
+Menage-M M F,1
+Literature-Canadian Literature,1
+Historical-Victorian,1
+Romance-Love Story,1
+Dc Comics-Wonder Woman,1
+Dc Comics-Batman,1
+Sequential Art-Comic Strips,1
+Animals-Animal Fiction,1
+Cultural-Poland,1
+Illness-Disease,1
+Science-Natural History,1
+History-Local History,1
+Cultural-Counter Culture,1
+Pulp,1
+Sexuality-Sex Work,1
+Animals-Dinosaurs,1
+Fat-Fat Acceptance,1
+North American Hi...-American History,1
+Political Science-International Relations,1
+Humor-Jokes,1
+Politics-Political Science,1
+Alcohol-Wine,1
+European Literature-Belgian,1
+Christianity-Evangelism,1
+Christianity-Old Testament,1
+Gender,1
+Tragedy,1
+Reference-Research,1
+Soccer,1
+Folk Tales,1
+Paranormal Urban Fantasy,1
+Academic-College,1
+Criticism,1
+Travel-Road Trip,1
+Science-Library Science,1
+Food and Drink-Vegan,1
+Paranormal-Wizards,1
+Cultural-Iran,1
+History-European History,1
+Philosophy-Eastern Philosophy,1
+Literature-European Literature,1
+Sci Fi Fantasy,1
+Science-Geography,1
+Romance-African American Romance,1
+Buisness,1
+Love Inspired-Love Inspired Suspense,1
+Crafts-Quilting,1
+European Literature-Serbian Literature,1
+Productivity,1
+Folk Tales-Fables,1
+History-Ancient History,1
+Biology-Evolution,1
+Family Law-Fostering,1
+Gay Romance-Gay For You,1
+Crafts-Sewing,1
+African Literature-Egyptian Literature,1
+Romance-Fantasy Romance,1
+Classics-Modern Classics,1
+Polyamory,1
+Short Stories-Short Story Collection,1
+Romance-Lesbian Romance,1
+Classics-Cult Classics,1
+Cultural-Bangladesh,1
+Literature-Asian Literature,1
+Futuristic,1
+Eastern Africa-Ethiopia,1
+Literature-Black Literature,1
+Comics Manga,1
+Childrens-Young Readers,1
+Religion-Hinduism,1
+Computers-Internet,1
+Gender-Gender Studies,1
+Fairies-Fae,1
+Social Issues-Class,1
+Science-Engineering,1
+Childrens-2nd Grade,1
+Philosophy-Metaphysics,1
+Race-Anti Racist,1
+Pornography,1
+Superheroes-Dc Comics,1
+Sports-Hockey,1
+American-African American Literature,1
+Esoterica-Alchemy,1
+Young Adult-Young Adult Paranormal,1
+Northern Africa-Morocco,1
+United States,1
+Neuroscience-Brain,1
+Computer Science-Algorithms,1
+Cultural-Asia,1
+History-1917,1
+World Of Warcraft-Warcraft,1
+Science Fiction-Apocalyptic,1
+Eastern Africa-Rwanda,1
+Biology-Ecology,1
+Nobel Prize,1
+LGBT-Asexual,1
+Category Romance-Mills and Boon,1
+Linguistics-Semiotics,1
+Womens Fiction,1
+Religion-Church,1
+Animals-Wolves,1
