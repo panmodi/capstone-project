@@ -91,6 +91,25 @@ svc                 {'svc__C': 10, 'svc__kernel': 'rbf'}           41.033309    
 * Now logisticregression, ridge and svc have 70% accuracy
 * svc takes a long time to come
 * Ridge model takes the least amount of time
+### Feature Importance
+Do "Feature Importance" for best Logistic Regression model. Similar can be done for other models too. I have printed top/low 20 coefficients as well
+```
+Calculating Permutation Importance for best Logistic Regression model
+                    feature  importance
+              primary_genre    0.097139
+                     author    0.068067
+                  publisher    0.023981
+no_of_other_books_in_series    0.019281
+                  is_series    0.003276
+             year_published   -0.000441
+```
+* From output we can see that 'primary_genre' is the most important feature(0.097). Also 'author' also is strong second impprtant feature. It says, who" wrote the book is a great indicator of it's success which does makes sense.
+* 'publisher' and 'no_of_other_books_in_series' are secondary features with moderate impact.  'no_of_other_books_in_series' which has impact also makes sense as it shows the length of a series is a predictor and loyal fanbase. 
+* 'is_series' doesn't have much impact(as such 'no_of_other_books_in_series' covers that better). 
+* 'year_published' has negative impact so we can remove this which might improve accuracy slightly.
+* From this we can see that 'year_published' and 'is_series' can be droped which should make model simpler. 
+* Positive coefficients are dominated by 'author' which makes sense as in "Feature Importance" 'author' was second best. 
+* J.D. Robb, Tamora Pierce, and Brandon Sanderson are popular authors and books by them has higher chances of being successful. Some of these authors have series which was also secondary feature for being successful
 
 ### Deep Neural Network
 ```
