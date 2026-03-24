@@ -117,5 +117,20 @@ Accuracy: 0.7075616298377826
 ```
 With genre_cleaned we get accuracy of 70.73. Not much change from original usage of primary_genre. With above all combinations,accuracy stays between 68% to 70% which is very similar to realistic world where 7 out of 10 books' success can be predicated by few features added above. We also see that adding secondary genre with 30% weightage had also some impact(not much though)
 
+### Natural Language Processing (NLP)
+Predict the genre of the book where we have filled NaN with 'Other'. Use books['description']. Try with all the 'primary_genre' and then try with top 20 'primary_genre'. Compare the diffrence in performance. Create another column books['final_genre'] and fill the new genre if confidence score is higher than 0.50(50%)
+* Intially tried to predict all the genres from 'primary_genre'. code is taking long time to process as we have a lot of variation of primary_genre. We can narrow down that but focusing on top 20 genres
+* Narrowed down to books with top 20 Genres (excluding 'Other'). Tried few options with CountVectorizer and TfidfVectorizer.
+* Code will get the probabilities for all 20 genres for each 'Other' book. Find the index of the highest probability for each book and find the value of that highest probability (the confidence score)
+* I verified some of these manually from my dataset. Original dataset has link to the goodreads book. From the book I checked either in google or from title I could see that predictions on top 15 which are dispalyed here seems correct.
+* Created books['final_genre'] with predicted value when predictions with > 50% confidence
+* Some stats for how many we could fillout successfully
+```
+--- Confidence Analysis for 'Other' Genres ---
+Total 'Other' books to predict:      2837
+Predicted with > 50% confidence:   707
+Percentage of 'Other' successfully filled: 24.92%
+Average confidence score:           0.38
+```
 
 ### Future work
