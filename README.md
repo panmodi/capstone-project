@@ -133,4 +133,5 @@ Percentage of 'Other' successfully filled: 24.92%
 Average confidence score:           0.38
 ```
 
+
 ### Future work
