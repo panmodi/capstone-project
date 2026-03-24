@@ -22,6 +22,11 @@ Data used: [OpenML](https://www.openml.org/search?type=data&status=active&id=434
 * books['is_high_rated'] from books['average_rating'] which can be used as 'y' to predict
 * books['primary_genre'] from processing and using first genre from books['genre_and_votes'] and ignoring votes number. Filled NaN with 'Other'
 * books['publisher'] filled NaN with 'Other'
+Additional clean up
+* Take out secondary_genre too. Split like books['primary_genre']. Fill all NaN with 'Other'
+* Ignoring some authors like ",", "Other Author","NOT A BOOK" etc. Checked manually, 'NOT A BOOK' is usually some articles
+* Genre cleaning by combining some genre in to one. Targeting top 20 genres. Unique Genres reduced to 388 from original 466. Now books which are NOT part of top 20 genres are reduced from ~27% to ~18%
+
 
 ### Visualizations of data
 Added code for visualisation of the data with various charts
@@ -32,7 +37,11 @@ Added code for visualisation of the data with various charts
 * Top 10 frequent Publishers. Ignoring other as it comes as top publisher as in clean up we replaced all spaces and NaN with 'Other'
 * Distribution of Books by Rating and Awards Won
 * Rating Trend Over Time (Since 1980). Used the column which we added 'year_published'
-
+##### Additional Visualizations
+* Top 20 Most Popular Genres
+* Top 20 genre coverage. This is visulization of data which comparision I have done manually in previous cells
+* Series vs. Standalone Books by Genre
+  
 ### Baseline Model
 Used few of the columns which has books metadata like 'author','publisher','primary_genre','is_series','no_of_other_books_in_series','year_published' as X and 'is_high_rated' will be used as y
 
@@ -83,11 +92,30 @@ svc                 {'svc__C': 10, 'svc__kernel': 'rbf'}           41.033309    
 * svc takes a long time to come
 * Ridge model takes the least amount of time
 
+### Deep Neural Network
+```
+NN Accuracy: 0.6814
+[[5148 2155]
+ [2833 5522]]
+```
+Deep Neural Network is not helping much here as accuracy is reduced. 
+
+### Secondary genre with 30% weightage
+Adding 'secondary_genre' also as one the feature but only with 30% weightage. Suggestion of using weightage for 'secondary_genre' column was suggested by Jessica in our 1 on 1 session. 
+```
+New Accuracy with Weighted Secondary Genre: 0.7119
+[[5085 2218]
+ [2293 6062]]
+```
+We see minor improvement. We can try out various % weightage like 40%, 50% for 'secondary_genre' column. We can also try grid_search by passing few options. 
+### Using 'genre_cleaned'
+Use books['genre_cleaned'] instead of books['primary_genre'] and see if that helps in higher accuracy.
+```
+Accuracy: 0.7075616298377826
+[[5024 2279]
+ [2300 6055]]
+```
+With genre_cleaned we get accuracy of 70.73. Not much change from original usage of primary_genre. With above all combinations,accuracy stays between 68% to 70% which is very similar to realistic world where 7 out of 10 books' success can be predicated by few features added above. We also see that adding secondary genre with 30% weightage had also some impact(not much though)
+
 
 ### Future work
-
-#### Clean up data
-* Make all space ‘title’, ‘author’ as ‘Other’
-* Clean up Genre more by combining some e.g. make Romance-Romantic Suspense, Romance-M M Romance as Romance
-* See if 'description' can be used to fillout 'primary_genre' column where we filled NaN with 'Other' 
-
